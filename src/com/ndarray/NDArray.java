@@ -221,7 +221,7 @@ public class NDArray<T> {
      * @requires args != null
      * @requires 0 < args.size < this.rowLength
      */
-    public void addNonEmptyRow(ArrayList<T> args) throws NullPointerException, IndexOutOfBoundsException {
+    public void addNonEmptyRow(ArrayList<T> args) throws RuntimeException {
         GUARD.againstNull(args);
         GUARD.againstIndexOutOfBounds(0, this.rowLength - 1, args.size());
         // ref front node
