@@ -2,6 +2,9 @@
 
 Different approach to the NDArray concept using a doubly linked list. This is strictly a component I'm working on to better understand how to create a class with different functionality, better understand nodes and guard clauses. Not exactly meant to be used, unless you can find a use for it.
 
+# Note
+Not all methods have been tested. Will be testing and updating as appropriate - 5/4/2023
+
 # Representation
 - The user chooses
     - The length of each row (How many entries can be added) (Vertical - y axis)
