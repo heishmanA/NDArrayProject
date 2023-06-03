@@ -1,4 +1,6 @@
 # NDArray_2 Readme file
+# Note: This project is unfinished and mostly untested. - 6/3/2023
+# Note: The guard clauses should probably be removed, but I haven't had time to work on this 6/3/2023
 
 Different approach to the NDArray concept using a doubly linked list. This is strictly a component I'm working on to better understand how to create a class with different functionality, better understand nodes and guard clauses. Not exactly meant to be used, unless you can find a use for it.
 
